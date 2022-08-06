@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E88E5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="#F4F2F8"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:text="Welcome my friend! HiHi"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#0FF30F"
+        android:id="@+id/announcement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/userSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableRight="@drawable/ic_baseline_account_circle_24"
+        android:hint="Username"
+        android:textColor="#050505"
+        android:textSize="28dp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/passSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableRight="@drawable/ic_baseline_lock_24"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#050505"
+        android:textSize="28dp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/passRepeatSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableRight="@drawable/ic_baseline_lock_24"
+        android:hint="Password Confirm"
+        android:inputType="textPassword"
+        android:textColor="#050505"
+        android:textSize="28dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/havingAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="You are already having an account?LogIn"
+        android:textColor="#FBFBFB"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="SignUp"
+        android:textColor="@drawable/custom_button" />
+
+</LinearLayout>
